@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <!-- Fav Icon Link -->
+    <link rel="shortcut icon" href="images/5087579.png" type="image/x-icon">
+    <!-- Style Sheet Link -->
+    <link rel="stylesheet" href="css/login.css">
+    <!-- Bootstrap Link -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <form id="loginForm">
+        <div class="container mx-auto my-5 text-center">
+            <div class="shadow m-auto w-75 p-5">
+                <h1 class="mb-4 text-white">Smart Log in System</h1>
+                <input class="form-control mb-4" type="text" id="signEmail" required placeholder="Enter your Email :">
+                <input class="form-control mb-4" type="password" id="signPassword" required
+                    placeholder="Enter your Password :">
+                <div class="alert alert-danger d-none" id="alertLogin">Incorect Email or Password</div>
+                <button id="login" class="btn btn-outline-info w-100">Log in</button>
+                <p class="text-white mt-3">Don't have an Account? <a href="Sign up/signup.html">Sign up</a></p>
+            </div>
+        </div>
+    </form>
+    <script src="js/login.js"></script>
+</body>
+
+</html>

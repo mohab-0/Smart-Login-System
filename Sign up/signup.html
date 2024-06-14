@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <!-- Fav Icon Link -->
+    <link rel="shortcut icon" href="../images/sign-up.webp" type="image/x-icon">
+    <!-- Bootstrap Link -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Style Sheet Link -->
+    <link rel="stylesheet" href="css/signup.css">
+</head>
+
+<body>
+    <form id="registerForm">
+        <div class="container mx-auto my-5 text-center">
+            <div class=" shadow m-auto w-75 p-5">
+                <h1 class="text-white pb-3">Smart Login System</h1>
+                <!-- Data Inputs -->
+                <input class="form-control mb-4" type="text" id="signName" placeholder="Enter Your Name :">
+                <input class="form-control mb-4" type="text" id="signEmail" placeholder="Enter Your Email :">
+                <input class="form-control mb-4" type="password" id="signPassword" placeholder="Enter Your Password :">
+                <!-- Alert Messages -->
+                <div class="alert alert-danger d-none" id="nameAlert">Name must be at least 3 characters</div>
+                <div class="alert alert-danger d-none" id="emailAlert">Please enter a valid Email</div>
+                <div class="alert alert-danger d-none" id="passwordAlert">-Your Password must be :<br>-At least 8
+                    characters <br>-At least one
+                    uppercase <br>-At least one number</div>
+                <div class="alert alert-danger d-none" id="existAlert">Email is Already exist</div>
+                <div class="alert success-message border-3 d-none" id="successAlert">Sign Up Success</div>
+                <!-- Sign up Button -->
+                <button class="btn btn-outline-info w-100">Sign Up</button>
+                <p class="text-white mt-3">Already have an Account? <a class="text-white"
+                        href="../index.html">Sign in</a></p>
+            </div>
+        </div>
+
+    </form>
+
+    <script src="js/signup.js"></script>
+</body>
+
+</html>

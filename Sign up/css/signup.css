@@ -1,0 +1,10 @@
+body
+{
+    background-color: #24353F !important;
+}
+.success-message
+{
+   color: #28A744;
+    border-color: #28A744;
+    background-color: transparent;
+}
